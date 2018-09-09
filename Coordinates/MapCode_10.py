@@ -93,16 +93,16 @@ while True:
     
        
     #save to a new .csv file
-    df.to_csv('Coordenadas_'+name, sep=';')   
+    df.to_csv('Coordinates_'+name, sep=';')   
     #prompt the user if the map is needed.
-    messagebox.showinfo('Information',' El nuevo archivo Coordenadas_'+name+
-                                     ' está listo')
+    messagebox.showinfo('Information',' The new file Coordinates_'+name+
+                                     ' is ready')
     
   
-    repeatNow = messagebox.askokcancel('Question','Quieres procesar otra lista?')
+    repeatNow = messagebox.askokcancel('Question','Do you want to process another list?')
     #In case the person does not to process a new list the program ends.
     if repeatNow == False:
-        messagebox.showinfo('Information','Ok, programa terminado')
+        messagebox.showinfo('Information','Ok, program finished')
         break
 #Close the tkinter window
 application_window.destroy()    
