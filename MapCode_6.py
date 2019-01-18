@@ -1,13 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 """
-1- Seleccionar archivo_Ok
-2- Seleccionar si quiere el mapa o no_Ok
-3- Promedio del centro de los gps points._Ok
-4- 
-5- Try and catch
-6- Limpiar código
-7-
-Created on Mon Aug 20 16:18:08 2018
+
+
 
 @author: fjval
 """
